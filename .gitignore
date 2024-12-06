@@ -1,3 +1,4 @@
-node_modules
+#ignore node module changes
+node_modules/
 # Keep environment variables out of version control
 .env
