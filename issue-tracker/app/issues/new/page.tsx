@@ -12,10 +12,6 @@ import ErrorMessage from "@/app/component/ErrorMessage";
 import Spinner from "@/app/component/Spinner";
 
 type IssueForm = z.infer<typeof createIssueSchema>;
-// interface IssueForm {
-//   title: string;
-//   description: string;
-// }
 
 const NewIssuePage = () => {
   const router = useRouter();
