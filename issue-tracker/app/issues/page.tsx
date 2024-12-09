@@ -1,10 +1,7 @@
 // "use client";
-import React from "react";
-import { Button, Table } from "@radix-ui/themes";
-// import Link from "next/link";
-import Link from "../component/Link";
+import { IssueStatusBadge, Link } from "@/app/component";
 import prisma from "@/db/db";
-import IssueStatusBadge from "../component/IssueStatusBadge";
+import { Table } from "@radix-ui/themes";
 import IssueActions from "./IssueActions";
 
 const IssuesPage = async () => {
